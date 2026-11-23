@@ -1,0 +1,13 @@
+label,condition,replicate
+normInt_A14.07032.1,LB,1
+normInt_A14.07033.1,LB,2
+normInt_A14.07034.1,LB,3
+normInt_A14.07036.1,glucose,1
+normInt_A14.07037.1,glucose,2
+normInt_A14.07038.1,glucose,3
+normInt_A14.07044.1,acetate,1
+normInt_A14.07045.1,acetate,2
+normInt_A14.07046.1,acetate,3
+normInt_A14.07088.1,glucose,4
+normInt_A14.07089.1,glucose,5
+normInt_A14.07090.1,glucose,6

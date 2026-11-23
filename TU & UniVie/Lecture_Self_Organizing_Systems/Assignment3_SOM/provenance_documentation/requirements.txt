@@ -1,0 +1,9 @@
+ipykernel
+seaborn
+matplotlib
+starvers @ git+https://github.com/GreenfishK/starvers.git
+plotly
+requests
+scipy
+sklearn
+panel

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Operating system metadata
+*:Zone.Identifier
+.DS_Store
+Thumbs.db
+
+# Temporary files and logs
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# C compilation artifacts
+*.o
+*.a
+*.so
+*.out
+
+# Compiled executables
+42 Vienna/philosophers/philo

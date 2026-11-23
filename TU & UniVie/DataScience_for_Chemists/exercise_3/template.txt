@@ -1,0 +1,26 @@
+from sklearn.cluster import AgglomerativeClustering
+from scipy.cluster import hierarchy
+from scipy.cluster.hierarchy import dendrogram
+import numpy as np
+import matplotlib as mpl
+from matplotlib import pyplot as plt
+
+X = np.array([[ 3,  2],  [4, 5], [ 4,  7],  [2, 7], [ 6,  6],  [7, 7], [6, 4]]) # 7 samples, 2 features
+
+clustering = AgglomerativeClustering(n_clusters=None, metric='euclidean', memory=None, connectivity=None, compute_full_tree='auto', linkage='single', 
+                                     distance_threshold=0, compute_distances=True).fit(X)
+
+clustering
+AgglomerativeClustering()
+clustering.n_clusters_
+clustering.labels_
+clustering.n_connected_components_
+clustering.n_features_in_
+clustering.children_
+clustering.distances_
+
+z=hierarchy.linkage(X,'single')
+hierarchy.dendrogram(z)
+plt.show
+
+

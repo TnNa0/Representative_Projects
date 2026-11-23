@@ -1,0 +1,1 @@
+Edit env.yml and sync with conda env update -f env.yml --prune

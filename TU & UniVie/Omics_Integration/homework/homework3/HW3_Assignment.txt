@@ -1,0 +1,11 @@
+Please derive and plot the amount of enzyme required to maintain a constant flux in a reversible Michaelis-Menten reaction as a function of ( -Deltar G ).
+
+-drG()
+ 
+
+Etot = f(-drG)
+
+A = (S/Ks) / (1 + (S/Ks) + (P/Kp))
+Thermo = 1 - exp (drG / (RT))
+
+Etot = v / (kcat * A * Thermo)

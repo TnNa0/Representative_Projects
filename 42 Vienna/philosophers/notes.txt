@@ -1,0 +1,16 @@
+
+
+
+pretty sure everything works fine.
+
+.>test last time for leaks & races
+.>do norm (especially line counts)
+
+-->monitor full
+--->???
+
+
+
+
+----------------------------------------------------------------------------------------------
+
